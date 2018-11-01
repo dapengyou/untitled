@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39eaa2f9-4a46-4130-8980-aaba96aebc3d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/SkipList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/test/mergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/test/mergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/test/quickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/test/quickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/bsearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bsearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$USER_HOME$/Downloads/safari下载内容/github/j-im/jim-client/target/" />
@@ -21,17 +19,17 @@
       <file leaf-file-name="mergeSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/mergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="551">
               <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bsearch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bsearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/bsearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="200" column="32" selection-start-line="200" selection-start-column="32" selection-end-line="200" selection-end-column="32" />
+            <state relative-caret-position="551">
+              <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
               <folding>
                 <element signature="method#bsearchInternally#0;class#bsearch#0" />
               </folding>
@@ -39,11 +37,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SkipList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/SkipList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="quickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/quickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="969">
+              <caret line="51" column="5" selection-start-line="18" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -88,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/test/mergeSort.java" />
         <option value="$PROJECT_DIR$/src/test/quickSort.java" />
         <option value="$PROJECT_DIR$/src/test/bsearch.java" />
+        <option value="$PROJECT_DIR$/src/test/SkipList.java" />
       </list>
     </option>
   </component>
@@ -126,8 +134,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,22 +300,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="743" y="23" width="1176" height="992" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.328125" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32849163" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28826815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28826815" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32849163" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32849163" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16578484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16843033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -320,19 +326,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32849163" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/insertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/study.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -611,10 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2584">
           <caret line="174" column="16" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="16" />
-          <folding>
-            <element signature="e#7284#7285#0" expanded="true" />
-            <element signature="e#7312#7313#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,7 +640,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/mergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="551">
           <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
         </state>
       </provider>
@@ -665,18 +661,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/quickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="969">
+          <caret line="51" column="5" selection-start-line="18" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/bsearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="200" column="32" selection-start-line="200" selection-start-column="32" selection-end-line="200" selection-end-column="32" />
+        <state relative-caret-position="551">
+          <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
           <folding>
             <element signature="method#bsearchInternally#0;class#bsearch#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/SkipList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
     </entry>
