@@ -10,7 +10,7 @@ import java.util.Arrays;
  * 二分法查找只能用在有序的数组，并且插入、删除操作不频繁一次排序多次查找的场景中，数量小和大都不适合用二分法
  * 数量小用顺序查找就可以了，数量大需要连续的内存空间
  */
-public class bsearch {
+public class binarySearch {
     public static void main(String[] args) {
         int[] number = new int[]{
                 6, 9, 30, 2, 56, 4, 2, 1, 7, 3, 99, 32, 44
