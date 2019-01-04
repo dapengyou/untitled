@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39eaa2f9-4a46-4130-8980-aaba96aebc3d" name="Default" comment="" />
+    <list default="true" id="39eaa2f9-4a46-4130-8980-aaba96aebc3d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$USER_HOME$/Downloads/safari下载内容/github/j-im/jim-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +15,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Class_01.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Class_01.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arithmetic/Class_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="209">
+              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_02.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arithmetic/class_02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="e#1261#1262#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,10 +81,11 @@
         <option value="$PROJECT_DIR$/src/test/binarySearch.java" />
         <option value="$PROJECT_DIR$/src/test/test.java" />
         <option value="$PROJECT_DIR$/src/arithmetic/Class_01.java" />
+        <option value="$PROJECT_DIR$/src/arithmetic/class_02.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -109,8 +125,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -138,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Class_01">
+  <component name="RunManager" selected="Application.class_02">
     <configuration name="Class_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.Class_01" />
       <module name="untitled" />
@@ -164,13 +180,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="insertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.insertionSort" />
+    <configuration name="class_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.class_02" />
       <module name="untitled" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="arithmetic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,19 +252,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.insertionSort" />
       <item itemvalue="Application.mergeSort" />
       <item itemvalue="Application.binarySearch" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.Class_01" />
+      <item itemvalue="Application.class_02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.class_02" />
         <item itemvalue="Application.Class_01" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.binarySearch" />
         <item itemvalue="Application.mergeSort" />
-        <item itemvalue="Application.insertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -275,24 +291,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3273632" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32849163" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3283582" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3986207" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2875622" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3283582" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827586" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16639742" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11128861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -304,6 +319,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -323,13 +339,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/selectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/insertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
@@ -576,9 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="39" column="22" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,8 +677,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arithmetic/Class_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="209">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arithmetic/class_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
