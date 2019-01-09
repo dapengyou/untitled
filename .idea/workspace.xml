@@ -18,20 +18,34 @@
       <file leaf-file-name="Class_01.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arithmetic/Class_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="223">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class_02.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class_02.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arithmetic/class_02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="-23">
+              <caret line="16" selection-start-line="16" selection-end-line="17" />
               <folding>
-                <element signature="e#1261#1262#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
+                <element signature="e#1413#1414#0" expanded="true" />
+                <element signature="e#1453#1454#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_03.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arithmetic/class_03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,6 +64,7 @@
     <findStrings>
       <find>current</find>
       <find>f</find>
+      <find>size</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -82,12 +97,13 @@
         <option value="$PROJECT_DIR$/src/test/test.java" />
         <option value="$PROJECT_DIR$/src/arithmetic/Class_01.java" />
         <option value="$PROJECT_DIR$/src/arithmetic/class_02.java" />
+        <option value="$PROJECT_DIR$/src/arithmetic/class_03.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -97,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,7 +142,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -154,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.class_02">
+  <component name="RunManager" selected="Application.class_03">
     <configuration name="Class_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.Class_01" />
       <module name="untitled" />
@@ -191,13 +207,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.mergeSort" />
+    <configuration name="class_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.class_03" />
       <module name="untitled" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="arithmetic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,19 +268,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.mergeSort" />
       <item itemvalue="Application.binarySearch" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.Class_01" />
       <item itemvalue="Application.class_02" />
+      <item itemvalue="Application.class_03" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.class_03" />
         <item itemvalue="Application.class_02" />
         <item itemvalue="Application.Class_01" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.binarySearch" />
-        <item itemvalue="Application.mergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -296,18 +312,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3273632" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3283582" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2875622" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2875622" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827586" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3273632" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11128861" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11980831" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -339,13 +355,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/insertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/quickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -574,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8626">
-          <caret line="477" column="17" selection-start-line="477" selection-start-column="17" selection-end-line="477" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/setDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
@@ -677,18 +679,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arithmetic/Class_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="223">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arithmetic/class_02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="-23">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
           <folding>
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="621" column="8" selection-start-line="621" selection-start-column="8" selection-end-line="621" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arithmetic/class_03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
           </folding>
         </state>
       </provider>
