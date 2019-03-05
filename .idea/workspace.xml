@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39eaa2f9-4a46-4130-8980-aaba96aebc3d" name="Default" comment="" />
+    <list default="true" id="39eaa2f9-4a46-4130-8980-aaba96aebc3d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/thread/NotifyAllDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/NotifyAllDemo.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$USER_HOME$/Downloads/safari下载内容/github/j-im/jim-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="synchronizedDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="synchronizedDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thread/synchronizedDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="855">
+              <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -69,15 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotifyAllDemo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NotifyAllDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/thread/NotifyAllDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-              <folding>
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="699">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -198,8 +196,8 @@
         <option value="$PROJECT_DIR$/src/thread/MyThread.java" />
         <option value="$PROJECT_DIR$/src/thread/ThreadDemo.java" />
         <option value="$PROJECT_DIR$/src/thread/WaitDemo.java" />
-        <option value="$PROJECT_DIR$/src/thread/NotifyAllDemo.java" />
         <option value="$PROJECT_DIR$/src/thread/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/src/thread/NotifyAllDemo.java" />
       </list>
     </option>
   </component>
@@ -242,6 +240,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -273,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchDemo">
+  <component name="RunManager" selected="Application.NotifyAllDemo">
     <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.CountDownLatchDemo" />
       <module name="untitled" />
@@ -379,8 +384,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountDownLatchDemo" />
         <item itemvalue="Application.NotifyAllDemo" />
+        <item itemvalue="Application.CountDownLatchDemo" />
         <item itemvalue="Application.WaitDemo" />
         <item itemvalue="Application.ThreadDemo" />
         <item itemvalue="Application.synchronizedDemo" />
@@ -421,12 +426,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3124378" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3124378" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3278328" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32636815" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.157082" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.157082" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -748,17 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/joinDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
@@ -787,29 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/WaitDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <element signature="e#156#752#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#1451#1452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/NotifyAllDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-          <folding>
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/CountDownLatchDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -824,8 +795,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/synchronizedDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="855">
+          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/WaitDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="e#156#752#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/joinDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/NotifyAllDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
         </state>
       </provider>
     </entry>
