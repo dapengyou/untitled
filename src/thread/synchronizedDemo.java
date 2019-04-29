@@ -2,7 +2,7 @@ package thread;
 
 public class synchronizedDemo {
     public static void main(String[] args) {
-//        synchronizedDemo syn = new synchronizedDemo();
+//        synchronizedMethod syn = new synchronizedMethod();
 //        syn.do1();
 //        syn.do2();
 //

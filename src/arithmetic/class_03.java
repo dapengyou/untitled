@@ -51,8 +51,10 @@ public class class_03 {
         TreeNode root = new TreeNode(pre[startPre]);
         for (int i = startIn; i <= endIn; i++) {
             if (in[i] == pre[startPre]) {
-                root.left = reConstructBinaryTree(pre, startPre + 1, startPre + i - startIn, in, startIn, i - 1);
-                root.right = reConstructBinaryTree(pre, i + startPre - startIn + 1, endPre, in, i + 1, endIn);
+                root.left = reConstructBinaryTree(pre, startPre + 1,
+                        startPre + i - startIn, in, startIn, i - 1);
+                root.right = reConstructBinaryTree(pre, i + startPre - startIn + 1,
+                        endPre, in, i + 1, endIn);
                 break;
             }
 
@@ -61,7 +63,6 @@ public class class_03 {
         list.add(root.val);
 
         System.out.print(list);
-
         return root;
     }
 
