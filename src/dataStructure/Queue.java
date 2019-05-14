@@ -3,13 +3,13 @@ package dataStructure;
 public class Queue {
     private int maxSize = 100;//默认数组长度
 
-    private Integer[] data;//数据域
+    private Object[] data;//数据域
 
     private int front;//队头指针
     private int rear;//队尾指针
 
     public Queue() {
-        data = new Integer[maxSize];
+        data = new Object[maxSize];
         front = rear = 0;
     }
 
@@ -17,7 +17,7 @@ public class Queue {
         if (maxSize < this.maxSize) {
             maxSize = this.maxSize;
         }
-        data = new Integer[maxSize];
+        data = new Object[maxSize];
         front = rear = 0;
     }
 
@@ -32,7 +32,7 @@ public class Queue {
     }
 
     //入队，添加元素
-    public boolean add(Integer e) {
+    public boolean add(Object  e) {
         if ((rear + 1) % maxSize == front) {
             return false;
         }
@@ -43,11 +43,11 @@ public class Queue {
     }
 
     //出队，移除元素
-    public Integer remove() {
+    public Object remove() {
         if (rear == front) {
             return null;
         }
-        Integer e = data[front];//在队头移除
+        Object e = data[front];//在队头移除
 
         front = (front + 1) % maxSize;
         return e;
