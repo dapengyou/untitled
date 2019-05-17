@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39eaa2f9-4a46-4130-8980-aaba96aebc3d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/QueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/StackTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="39eaa2f9-4a46-4130-8980-aaba96aebc3d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$USER_HOME$/Downloads/safari下载内容/github/j-im/jim-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,17 +30,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dataStructure/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="918">
+              <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
               <folding>
                 <element signature="e#492#493#0" expanded="true" />
                 <element signature="e#543#544#0" expanded="true" />
                 <element signature="e#580#581#0" expanded="true" />
                 <element signature="e#637#638#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapStudy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MapStudy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/javaTest/ForTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Class_01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arithmetic/Class_01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -102,10 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/socket/SocketTest.java" />
-        <option value="$PROJECT_DIR$/src/test/test.java" />
-        <option value="$PROJECT_DIR$/src/thread/joinDemo.java" />
-        <option value="$PROJECT_DIR$/src/thread/Demo.java" />
         <option value="$PROJECT_DIR$/src/thread/synchronizedDemo.java" />
         <option value="$PROJECT_DIR$/src/thread/MyThread.java" />
         <option value="$PROJECT_DIR$/src/thread/ThreadDemo.java" />
@@ -153,6 +174,10 @@
         <option value="$PROJECT_DIR$/src/dataStructure/StackTest.java" />
         <option value="$PROJECT_DIR$/src/dataStructure/Queue.java" />
         <option value="$PROJECT_DIR$/src/dataStructure/QueueTest.java" />
+        <option value="$PROJECT_DIR$/src/MapStudy.java" />
+        <option value="$PROJECT_DIR$/src/java/ForTest.java" />
+        <option value="$PROJECT_DIR$/src/javatest/ForTest.java" />
+        <option value="$PROJECT_DIR$/src/javaTest/ForTest.java" />
       </list>
     </option>
   </component>
@@ -189,12 +214,6 @@
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -227,28 +246,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueueTest">
-    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extend.C" />
+  <component name="RunManager" selected="Application.ForTest (1)">
+    <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.ForTest" />
       <module name="untitled" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extend.*" />
+          <option name="PATTERN" value="java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="OverrideTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extend.OverrideTest" />
+    <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTest.ForTest" />
       <module name="untitled" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extend.*" />
+          <option name="PATTERN" value="javaTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="MapStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapStudy" />
+      <module name="untitled" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructure.QueueTest" />
@@ -268,17 +292,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StaticFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extend.StaticFun" />
-      <module name="untitled" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="extend.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,19 +338,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.OverrideTest" />
-      <item itemvalue="Application.StaticFun" />
-      <item itemvalue="Application.C" />
       <item itemvalue="Application.StackTest" />
       <item itemvalue="Application.QueueTest" />
+      <item itemvalue="Application.MapStudy" />
+      <item itemvalue="Application.ForTest" />
+      <item itemvalue="Application.ForTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForTest (1)" />
+        <item itemvalue="Application.ForTest" />
+        <item itemvalue="Application.MapStudy" />
         <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.StackTest" />
-        <item itemvalue="Application.C" />
-        <item itemvalue="Application.StaticFun" />
-        <item itemvalue="Application.OverrideTest" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +400,7 @@
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49931034" weight="0.24959612" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986207" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39752406" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Flutter Inspector" order="4" weight="0.32956383" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,35 +417,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <option name="time" value="27" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="first" />
-        <watch expression="result" />
-        <watch expression="(size / 2) + 1" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/setDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/selectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/mergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -599,13 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="16" selection-start-line="16" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/Class_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -790,14 +775,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dataStructure/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        <state relative-caret-position="918">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding>
             <element signature="e#492#493#0" expanded="true" />
             <element signature="e#543#544#0" expanded="true" />
             <element signature="e#580#581#0" expanded="true" />
             <element signature="e#637#638#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arithmetic/Class_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MapStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaTest/ForTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
