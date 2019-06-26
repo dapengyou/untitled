@@ -25,92 +25,33 @@ public class CarGroupSize {
 
     public static boolean hasGroupsSizeX(int[] deck) {
 
-        boolean isTrue = false;
-
-        HashMap<Integer, Integer> map = new HashMap<>();
-
-        int tempNum = 0;
-        if (deck == null || deck.length < 2) {
+        if (deck.length <= 1)
             return false;
-        }
-
-        //将数组存入对应map
-        for (int num : deck) {
-            if (map.containsKey(num)) {
-                tempNum = map.get(num) + 1;
-                map.put(num, tempNum);
-            } else {
-                map.put(num, 1);
-            }
-        }
-
-
-//        int size = map.size();
-//        int[] tempvalues = new int[size];
-
-        //判断是否符合条件
-//        for (int key : map.keySet()) {
-//            int value = map.get(key);
-//            //存入数组
-//            if (size > 0) {
-//                tempvalues[size - 1] = value;
-//                size--;
-//            }
-//
-//            //数组排序
-//            Arrays.sort(tempvalues);
-//
-//        }
-//
-//        for (int num : tempvalues) {
-//            //递归求最大公约数
-//            tempNum = getNum(num, tempvalues[0]);
-//            if (tempNum >=2) {
-//                isTrue = true;
-//            } else {
-//                isTrue = false;
-//            }
-//        }
-
-
-        int tempKey = map.get(deck[0]);
-
-        //判断是否符合条件
-        for (int key : map.keySet()) {
-            //递归求最大公约数
-            tempNum = getNum(tempKey, map.get(key));
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int x : deck) {
+            if (!map.containsKey(x))
+                map.put(x, 1);
+            else
+                map.put(x, map.get(x) + 1);
 
         }
-        if (tempNum >= 2)
+        int p = map.get(deck[0]);
+        for (int y : map.keySet()) {
+            p = help(p, map.get(y));
+        }
+        if (p >= 2)
             return true;
         return false;
 
     }
 
-    static int getNum(int m, int n)//递归实现
-    {
-//        int k, y;
-//        if (m < n) {
-//            k = m;
-//            m = n;
-//            n = k;
-//        }
-//        y = m % n;
-//        if (y == 0) {
-//            return n;
-//        } else {
-//            m = n;
-//            n = y;
-//            return getNum(m, n);
-//        }
-
+    private static int help(int a, int b) {
         int temp;
-        if (m < n) {
-            temp = m;
-            m = n;
-            n = temp;
+        if (a < b) {
+            temp = a;
+            a = b;
+            b = temp;
         }
-
-        return n == 0 ? m : getNum(n, m % n);
+        return b == 0 ? a : help(b, a % b);
     }
 }
