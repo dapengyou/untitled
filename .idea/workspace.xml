@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39eaa2f9-4a46-4130-8980-aaba96aebc3d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/arithmetic/CarGroupSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/arithmetic/CarGroupSize.class" afterDir="false" />
-    </list>
+    <list default="true" id="39eaa2f9-4a46-4130-8980-aaba96aebc3d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$USER_HOME$/Downloads/safari下载内容/github/j-im/jim-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,63 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CarGroupSize.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arithmetic/CarGroupSize.java">
+      <file leaf-file-name="ExchangerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/thread/ExchangerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="-233">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/Demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="125" column="24" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BankWaterService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thread/BankWaterService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-143">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#429#446#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Executors.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="1189" column="11" selection-start-line="1189" selection-start-column="11" selection-end-line="1189" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountDownLatchTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/CountDownLatchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -125,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/bubbleSort.java" />
         <option value="$PROJECT_DIR$/src/test/bubul.java" />
         <option value="$PROJECT_DIR$/src/test/quit.java" />
         <option value="$PROJECT_DIR$/src/test/Trie.java" />
@@ -176,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/thread/CountDownLatch.java" />
         <option value="$PROJECT_DIR$/src/thread/CountDownLatchTest.java" />
         <option value="$PROJECT_DIR$/src/thread/BankWaterService.java" />
+        <option value="$PROJECT_DIR$/src/thread/ExchangerTest.java" />
       </list>
     </option>
   </component>
@@ -256,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BankWaterService">
+  <component name="RunManager" selected="Application.ExchangerTest">
     <configuration name="BankWaterService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.BankWaterService" />
       <module name="untitled" />
@@ -301,8 +249,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.Demo" />
+    <configuration name="ExchangerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.ExchangerTest" />
       <module name="untitled" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -365,19 +313,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Binary" />
       <item itemvalue="Application.CarGroupSize" />
       <item itemvalue="Application.BankWaterService" />
       <item itemvalue="Application.CountDownLatchTest" />
+      <item itemvalue="Application.ExchangerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExchangerTest" />
         <item itemvalue="Application.BankWaterService" />
         <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.CarGroupSize" />
         <item itemvalue="Application.Binary" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +364,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49931034" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36726272" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36726272" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32737276" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32462174" />
       <window_info anchor="right" id="Flutter Outline" order="8" weight="0.32956383" />
@@ -444,26 +392,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/thread/BankWaterService.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/thread/BankWaterService.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/thread/BankWaterService.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager>
@@ -478,13 +406,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/binarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -784,7 +705,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/CountDownLatchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
+        <state relative-caret-position="102">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
@@ -819,11 +740,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/BankWaterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="476">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#429#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/ExchangerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
