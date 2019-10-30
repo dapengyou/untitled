@@ -3,7 +3,25 @@ package arithmetic;
 public class Binary {
     public static void main(String[] args) {
         System.out.println(assBinary("11", "1"));
+        int[] num = {1,2,2,3,4,4};
+        int low = 0;
+        int higt = num.length;
+        int value = -1;
+        while (low<=higt) {
+            int mid = (low + higt) / 2;
+            System.out.println(mid);
 
+            if(num[mid]==-1){
+                return;
+            }else if(num[mid]>value){
+                higt = mid-1;
+                 System.out.println(higt);
+            }else{
+                low = mid+1;
+            }
+
+            System.out.println(mid + "-----" + num[mid]);
+        }
 
     }
 
