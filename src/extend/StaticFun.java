@@ -21,7 +21,7 @@ class Father2{
          System.out.println("Father的静态方法h()");
     }
     void test(){
-         System.out.println("Father.test()");
+         System.out.println("Father.Box()");
     }
 }
 
@@ -34,6 +34,6 @@ class Son2 extends Father2{
     }
 
     void test() {
-         System.out.println("son.test()");
+         System.out.println("son.Box()");
     }
 }
