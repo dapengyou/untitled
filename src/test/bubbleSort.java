@@ -5,8 +5,8 @@ import java.util.Arrays;
 import static jdk.nashorn.internal.objects.Global.println;
 
 /**
+ * @author lady_zhou
  * @date 创建时间: 2019/3/11
- * @author  lady_zhou
  * @Description 冒泡排序
  */
 public class bubbleSort {
@@ -16,10 +16,17 @@ public class bubbleSort {
                 3, 8, 2, 4, 1, 9
         };
 
+        long startTime = System.currentTimeMillis();   //获取开始时间
         //冒泡排序
 //        bubbleSort(number);
 
-        bubbleSort2(number);
+//        bubbleSort2(number);
+
+        bubbleSort3(number, number.length);
+
+        long endTime = System.currentTimeMillis(); //获取结束时间
+
+        System.out.println("程序运行时间：" + (endTime - startTime) + "ms");
 
         return;
     }
@@ -80,6 +87,29 @@ public class bubbleSort {
             if (false == bChange)
                 break;
 
+            System.out.format("从小到大第 %d 趟：\n ", i);
+
+            System.out.println(Arrays.toString(number));
+        }
+    }
+
+
+    private static void bubbleSort3(int[] number, int n) {
+        boolean bChange = false; // 交换标志
+
+        if (n <= 1) return;
+
+        for (int i = 0; i < n; i++) {
+            bChange = false;
+            for (int j = 0; j < n - 1 - i; j++) {
+                if (number[j] > number[j + 1]) {
+                    int temp = number[j];
+                    number[j] = number[j + 1];
+                    number[j + 1] = temp;
+                    bChange = true;
+                }
+            }
+            if (!bChange) break;
             System.out.format("从小到大第 %d 趟：\n ", i);
 
             System.out.println(Arrays.toString(number));
